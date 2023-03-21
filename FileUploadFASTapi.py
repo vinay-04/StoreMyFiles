@@ -26,7 +26,6 @@ class CloudStorage:
     
     def initializeFirebaseStorage(self):
         self.storage = self.firebase.storage()
-        pass
 
     def uploadFile(self):
         try:
